@@ -24,9 +24,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "Simon Doe"
-        tagline = "Senior Software Engineer"
-        avatar = "avatar.png"
+        name = "Cristian Pachacama"
+        tagline = "Mathematical Engineer |  Statistics & Operational Research"
+        avatar = "foto_david_circular.png"
 
 
 
@@ -36,20 +36,20 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.contact]
         enable = true
-        location = "New York"
+        location = "Quito - Ecuador"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:#"
-        text = "0123 4567 890"
+        text = "0958873211"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "simon.doe@yourwebsite.com"
+        text = "cdpachacama@datascience.ec"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
-        text = "www.yourwebsite.com"
+        text = "www.datascience.ec/blogs/"
 
 
 
@@ -63,26 +63,21 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
+        details = "Python | numpy, pandas, TensorFlow, plotly, django, flask"
         [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
+        details = "R | dplyr, ggplot2, plotly, leaflet, shiny, sparklyr"
         [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
+        details = "SQL | PostgreSQL, SQL Server"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
+        details = "Power BI | Tableau | Qlik Sense"
         [[params.skills.list.items]]
-        details = "Object-oriented design"
-        [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
-
+        details = "HTML | CSS | LateX "
+        
+        
         [[params.skills.list]]
         title = "Professional"
         [[params.skills.list.items]]
         details = "Effective communication"
-        [[params.skills.list.items]]
-        details = "Team player"
         [[params.skills.list.items]]
         details = "Strong problem solver"
         [[params.skills.list.items]]
@@ -99,13 +94,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        university = "University College London"
-        dates = "2010 - 2011"
+        degree = "Mathematical Engineering <br> Statistics and Operational Research"
+        university = "Escuela Politécnica Nacional"
+        dates = "Ecuador | 2012 - 2018"
         [[params.education.list]]
-        degree = "BSc Maths and Physics"
-        university = "Imperial College London"
-        dates = "2007 - 2010"
+        degree = "PhD in Statistics (Candidate)"
+        university = "Universidad Nacional de Rosario"
+        dates = "Argentina | 2020 - present"
 
 
 
@@ -118,13 +113,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
-        [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
+        name = "Ambassador for Research and Science."
+        body = "Research Leap"
+        date = "Jul 2018"
+        
 
 
 
@@ -138,10 +130,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.languages.list]]
         name = "English"
-        level = "Native"
+        level = "Professional"
         [[params.languages.list]]
         name = "Spanish"
-        level = "Professional"
+        level = "Native"
 
 
 
@@ -154,9 +146,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.interests.list]]
-        name = "Climbing"
-        [[params.interests.list]]
-        name = "Snowboarding"
+        name = "Swimming"
         [[params.interests.list]]
         name = "Photography"
         [[params.interests.list]]
@@ -171,7 +161,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+        text = "My main area of study is Statistics and Data Science, my goal is to establish myself as an expert in data science, for this I have tried to complement my studies of Mathematics and statistics with those of the use of different software tools and programming languages.<br> <br> Initially I focused my efforts on learning programming languages such as R and Python, there I acquired various skills for data treatment, modeling and visualization (handling libraries such as: dplyr, ggplot, plotly, leaflet, rmarkdown, shiny, shiny dashboards , pandas, numpy, TensorFlow). In addition, I acquired skills in tools for Analytics such as Power BI, as well as tools designed for Big Data such as Hadoop.<br> <br> I am currently developing research on new imputation techniques in the area of Space-Temporal Statistics, as well as Satisfaction Analysis with GLMM’s and mixed distributions."
 
 
 
@@ -184,55 +174,33 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
-        title = "Senior Software Engineer"
-        dates = "2019 - Present"
-        company = "Google"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        title = "Business Intelligence Analyst"
+        dates = "2019 - 2020"
+        company = "RECOVER Ecuador"
+        details = "In charge of carrying out projects related to Machine Learning and Artificial Intelligence, with the aim of improving processes making them more efficient, as well as generating statistical models for decision-making in operations management."
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Creation of Scoring models for segmentation of clients."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
-        [[params.experience.list.items]]
-        details = "Etiam ultricies nisi vel augue."
+        details = "Implementation of a conversational chatbot, for customer service."
+        
 
         [[params.experience.list]]
-        title = "Lead Software Developer"
-        dates = "2016 - 2019"
-        company = "Apple"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+        title = "Project Manager"
+        dates = "2017 - 2019"
+        company = "Pontificia Universidad Católica del Ecuador "
+        details = "Carry out a correct development of activities and projects related to scientific research in the area of Economics, Statistics (and related)."
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Creation of GeoRTS, an R package for imputation of missing data in space - time processes. ( <a href='https://github.com/InstitutoInvestigacionesEconomicasPUCE/geortsBeta'>link</a> )"
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Creation of APP (Shiny) for monitoring Cantonal Price Vulnerability Indicators for Ecuador. (<a href='https://iiepuce.shinyapps.io/Vulnerabilidad_Precios/'>link</a>)"
 
         [[params.experience.list]]
-        title = "Senior Software Developer"
-        dates = "2014 - 2016"
-        company = "Dropbox"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        title = "External Consultant"
+        dates = "2017 - present"
+        company = "MATH Consultancy"
+        details = "Course instructor of: Dynamic and Reproducible Reporting with Rmarkdown - Free Software School, tools for all Data Scientists. (<a href='https://github.com/MathConsultoresEcuador/Escuela-de-Software-Libre-EPN-'>link</a>)"
 
-        [[params.experience.list]]
-        title = "Senior Developer"
-        dates = "2013 - 2014"
-        company = "Uber"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
-
-        [[params.experience.list]]
-        title = "Backend Developer"
-        dates = "2014 - 2016"
-        company = "Amazon"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.experience.list]]
-        title = "Frontend Developer"
-        dates = "2013 - 2014"
-        company = "Startup"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
-
-
-
-
-
+       
 
 
 
@@ -243,20 +211,19 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.projects.list]]
-        title = "Project Lorem Ipsum"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
+        title = "Research Project"
+        meta = "Escuela Politécnica Nacional | 2017 - 2018"
+        tagline = "Research Assistant in project: Forecast and Impact of extreme low levels of streamflow in hydropower plants. (<a href='https://cristianpachacama.shinyapps.io/plataformatscluster/'>link</a>)"
+        
         [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
+        title = "Project"
+        meta = "Escuela Politécnica Nacional (DGIP) |  May 2018"
+        tagline = "Machine Learning model for forecasting the risk of failure of students of the EPN University."
+        
         [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
+        title = "Academic Project"
+        meta = "Escuela Politécnica Nacional (CLAVEMAT) | Nov 2014"
+        tagline = "Tutor in: Calculus, Vector Calculus and Linear Algebra"
 
 
 
@@ -272,13 +239,18 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list]]
         title = "Papers"
         [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
+        details = "2019 ·  <i>Breves consideraciones respecto al plan 'Casa para todos' o la Política Social con fomento Productivo</i> - Apuntes Técnicos, Instituto de Investigaciones Económicas, Pontificia Universidad Católica del Ecuador. (<a href='https://www.researchgate.net/publication/333934362_BREVES_CONSIDERACIONES_RESPECTO_AL_PLAN_CASA_PARA_TODOS_O_POLITICA_SOCIAL_CON_FOMENTO_PRODUCTIVO'>link</a>)"
         [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
-
+        details = "2020 · <i>Cluster Analysis of Seasonal Time Series, Modeling streamflows of rivers in Brazil</i> - Escuela Politécnica Nacional. (<a href='https://cristianpachacama.shinyapps.io/TesisBorrador/?_ga=2.50319010.546252289.1593066537-1856970471.1593066537'>link</a>)"
+        [[params.information.list.items]]
+        details = "2020 · <i>imputeSTS, an R package for imputation of missing data in Seasonal Time Series</i>. (<a href='https://github.com/CristianPachacama/imputeSTS'>link</a>)"
+        
         [[params.information.list]]
         title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
+        [[params.information.list.items]]
+        details = "<b>Research: </b> Geostatistics, Mixed Models, CUB models, Multidimensional Scaling methods, Time Series models, Cluster Analysis."
+        [[params.information.list.items]]
+        details = "<b>Work: </b> Application of AI & ML techniques, Big Data and Data Science projects related."
 
 
 
@@ -292,16 +264,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/username"
-        title = "username"
+        url = "//github.com/CristianPachacama"
+        title = "CristianPachacama"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "username"
+        url = "//linkedin.com/in/cristian-david-pachacama"
+        title = "cristian-david-pachacama"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
-        title = "@username"
+        url = "//twitter.com/CristianDavidPS"
+        title = "@CristianDavidPS"
 
 
 
