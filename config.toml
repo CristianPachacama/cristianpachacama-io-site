@@ -9,8 +9,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
 [params]
     author = "CowboySmall"
     description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
@@ -27,10 +25,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "Cristian Pachacama"
         tagline = "Mathematical Engineer |  Statistics & Operational Research"
         avatar = "foto_david_circular.png"
-
-
-
-
 
 
 
@@ -54,121 +48,25 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
-
-    [params.skills]
-        enable = true
-
-        [[params.skills.list]]
-        title = "Technical"
-        [[params.skills.list.items]]
-        details = "Python | numpy, pandas, TensorFlow, plotly, django, flask"
-        [[params.skills.list.items]]
-        details = "R | dplyr, ggplot2, plotly, leaflet, shiny, sparklyr"
-        [[params.skills.list.items]]
-        details = "SQL | PostgreSQL, SQL Server"
-        [[params.skills.list.items]]
-        details = "Power BI | Tableau | Qlik Sense"
-        [[params.skills.list.items]]
-        details = "HTML | CSS | LateX "
-        
-        
-        [[params.skills.list]]
-        title = "Professional"
-        [[params.skills.list.items]]
-        details = "Effective communication"
-        [[params.skills.list.items]]
-        details = "Strong problem solver"
-        [[params.skills.list.items]]
-        details = "Good time management"
-
-
-
-
-
-
-
-
-    [params.education]
-        enable = true
-
-        [[params.education.list]]
-        degree = "Mathematical Engineering, Statistics and Operational Research"
-        university = "Escuela Politécnica Nacional"
-        dates = "Ecuador | 2012 - 2018"
-        
-
-
-
-
-
-
-
-
-    [params.awards]
-        enable = true
-
-        [[params.awards.list]]
-        name = "Ambassador for Research and Science."
-        body = "Research Leap"
-        date = "Jul 2018"
-        
-
-
-
-
-
-
-
-
-    [params.languages]
-        enable = true
-
-        [[params.languages.list]]
-        name = "English"
-        level = "Professional"
-        [[params.languages.list]]
-        name = "Spanish"
-        level = "Native"
-
-
-
-
-
-
-
-
-    [params.interests]
-        enable = true
-
-        [[params.interests.list]]
-        name = "Swimming"
-        [[params.interests.list]]
-        name = "Photography"
-        [[params.interests.list]]
-        name = "Travelling"
-
-
-
-
-
-
-
-
     [params.summary]
         enable = true
-        text = "My main area of study is Statistics and Data Science, my goal is to establish myself as an expert in data science, for this I have tried to complement my studies of Mathematics and statistics with those of the use of different software tools and programming languages.   Initially I focused my efforts on learning programming languages such as R and Python, there I acquired various skills for data treatment, modeling and visualization (handling libraries such as: dplyr, ggplot, plotly, leaflet, rmarkdown, shiny, shiny dashboards , pandas, numpy, TensorFlow). In addition, I acquired skills in tools for Analytics such as Power BI, as well as tools designed for Big Data such as Hadoop.  I am currently developing research on new imputation techniques in the area of Space-Temporal Statistics, as well as Satisfaction Analysis with GLMM’s and mixed distributions."
-
-
-
-
-
+        text = "My main area of study is Statistics and Data Science, my goal is to establish myself as an expert in data science applied to Business Intelligence, for this I have tried to complement my studies of Mathematics (specialized in Statistics and operational research) with those of the use of different software tools and programming languages. Initially I focused my efforts on learning programming languages such as R and Python, there I acquired various skills for data treatment, modeling, analysis and visualization. In addition, I acquired skills in tools for Analytics such as Power BI, Tableau, as well as tools designed for Big Data such as Hadoop. I am currently developing research on new imputation techniques in the area of Space-Temporal Statistics, Satisfaction Analysis with GLMM's, as well as Routing and Logistic models, and its applications in the continuous improvement of processes in all types of business."
 
 
 
     [params.experience]
         enable = true
+        
+        [[params.experience.list]]
+        title = "Data Science Consultant"
+        dates = "2017 - 2020"
+        company = "Freelance"
+        details = ""
+        [[params.experience.list.items]]
+        details = "Putting into production projects related to Statistics, Machine Learning and Artificial Intelligence."
+        [[params.experience.list.items]]
+        details = "Academic tutor and Research assistant in topics related to Statistics and Mathematics."
+        
 
         [[params.experience.list]]
         title = "Business Intelligence Analyst"
@@ -201,16 +99,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
-
     [params.projects]
         enable = true
 
         [[params.projects.list]]
         title = "Research Project"
         meta = "Escuela Politécnica Nacional | 2017 - 2018"
-        tagline = "Research Assistant in project: Forecast and Impact of extreme low levels of streamflow in hydropower plants. ( https://cristianpachacama.shinyapps.io/plataformatscluster/ )"
+        tagline = "Research Assistant in project: Forecast and Impact of extreme low levels of streamflow in hydropower plants. (https://cristianpachacama.shinyapps.io/plataformatscluster/)"
         
         [[params.projects.list]]
         title = "Project"
@@ -221,7 +116,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Academic Project"
         meta = "Escuela Politécnica Nacional (CLAVEMAT) | Nov 2014"
         tagline = "Tutor in: Calculus, Vector Calculus and Linear Algebra"
-
 
 
 
@@ -252,6 +146,85 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Mathematical Engineering, Statistics and Operational Research"
+        university = "Escuela Politécnica Nacional"
+        dates = "Ecuador | 2012 - 2018"
+        
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Ambassador for Research and Science."
+        body = "Research Leap"
+        date = "Jul 2018"
+        
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Python | numpy, pandas, TensorFlow, plotly, django, flask, Gurobi"
+        [[params.skills.list.items]]
+        details = "R | dplyr, ggplot2, rmarkdown, plotly, leaflet, shiny, sparklyr"
+        [[params.skills.list.items]]
+        details = "SQL | PostgreSQL, Microsoft SQL Server"
+        [[params.skills.list.items]]
+        details = "Power BI | Tableau | Qlik Sense"
+        [[params.skills.list.items]]
+        details = "HTML | CSS | LateX "
+        
+        
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Native"
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Swimming"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
 
 
 
