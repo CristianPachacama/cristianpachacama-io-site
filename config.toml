@@ -50,7 +50,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "My main area of study is Statistics and Data Science, my goal is to establish myself as an expert in data science applied to Business Intelligence, for this I have tried to complement my studies of Mathematics (specialized in Statistics and operational research) with those of the use of different software tools and programming languages. Initially I focused my efforts on learning programming languages such as R and Python, there I acquired various skills for data treatment, modeling, analysis and visualization. In addition, I acquired skills in tools for Analytics such as Power BI, Tableau, as well as tools designed for Big Data such as Hadoop. I am currently developing research on new imputation techniques in the area of Space-Temporal Statistics, Satisfaction Analysis with GLMM's, as well as Routing and Logistic models, and its applications in the continuous improvement of processes in all types of business."
+        text = "My main area of study is Statistics and Data Science, my goal is to establish myself as an expert in data science applied to Business Intelligence, for this I have tried to complement my studies of Mathematics (specialized in Statistics and operational research) with those of the use of different software tools and programming languages. Initially I focused my efforts on learning programming languages such as R and Python, there I acquired various skills for data treatment, modeling, analysis and visualization. In addition, I acquired skills in tools for Analytics such as Power BI, Tableau, as well as tools designed for Big Data such as Hadoop, and Spark. I am currently developing research on new imputation techniques in the area of Space-Temporal Statistics, Satisfaction Analysis with GLMM's, as well as Routing and Logistic models, and its applications in the continuous improvement of processes in all types of business."
 
 
 
@@ -58,8 +58,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         
         [[params.experience.list]]
-        title = "Data Science Consultant"
-        dates = "2017 - 2020"
+        title = "Data Scientist Senior"
+        dates = "2020 - Today"
+        company = "Mobilvendor Mivshell"
+        details = "Leading artificial intelligence projects related to Image Recognition, NLP, text classification, etc."
+        
+        
+        [[params.experience.list]]
+        title = "Consultant"
+        dates = "2017 - Today"
         company = "Freelance"
         details = ""
         [[params.experience.list.items]]
@@ -72,7 +79,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Business Intelligence Analyst"
         dates = "2019 - 2020"
         company = "RECOVER Ecuador"
-        details = "In charge of carrying out projects related to Machine Learning and Artificial Intelligence, with the aim of improving processes making them more efficient, as well as generating statistical models for decision-making in operations management."
+        details = "In charge of carrying out projects related to Machine Learning with the aim of improving processes making them more efficient, as well as generating statistical models for decision-making in operations management."
         [[params.experience.list.items]]
         details = "Creation of Scoring models for segmentation of clients."
         [[params.experience.list.items]]
@@ -180,7 +187,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "Python | numpy, pandas, TensorFlow, plotly, django, flask, Gurobi"
+        details = "Python | numpy, pandas, sci-learn, TensorFlow, plotly, flask, Gurobi"
         [[params.skills.list.items]]
         details = "R | dplyr, ggplot2, rmarkdown, plotly, leaflet, shiny, sparklyr"
         [[params.skills.list.items]]
