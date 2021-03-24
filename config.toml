@@ -32,10 +32,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         location = "Quito - Ecuador"
 
-        [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:#"
-        text = "0958873211"
+
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
@@ -191,7 +188,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         details = "R | dplyr, ggplot2, rmarkdown, plotly, leaflet, shiny, sparklyr"
         [[params.skills.list.items]]
-        details = "SQL | PostgreSQL, Microsoft SQL Server"
+        details = "SQL | MySQL, Microsoft SQL Server"
         [[params.skills.list.items]]
         details = "Power BI | Tableau | Qlik Sense"
         [[params.skills.list.items]]
